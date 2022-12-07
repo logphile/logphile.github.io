@@ -7,10 +7,9 @@ order: 4
 
 
 
-### **Hi, my name is Phil. This is my blog. My hope is that the content here will**
-cover a range of technical topics. Ideally, stoicism, fatherhood, and other stuff too.
+Hi! I'm Phil. This is my blog. The content here is about technical stuff, stoicism, fatherhood and whatever else. 
 
-Stoicism is very valuable, easy to misunderstand and a difficult practice, at least in the beginning. Writing about Stoicism will help me internalize it better and maybe it will help someone reading one of my posts.  
+I discovered Stoicism years ago, wish I had run across it earlier in life. I have found it to be very valuable. Stoicism is one of those things, easy to misunderstand but requires effort, discipline and mindfulness.
 
 There are a couple of ways to reach me if you see something that needs to be corrected or just want to drop me a line.
 
