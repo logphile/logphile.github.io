@@ -20,3 +20,8 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Jekyll <= 4.2.0 compatibility with Ruby 3.0
 gem "webrick", "~> 1.7"
+
+# Fix for Liquid 4.0.3 incompatibility with Ruby 3.2.0
+if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new('3.2.0')
+  gem 'liquid', '>= 4.0.4'
+end
