@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://www.nurandi.id/img/blog/2019-01-06-apa-itu-jekyll-bagaimana-instalasinya-di-windows/logo-jekyll.jpg
+avatar: https://imgur.com/l5w0SSN
 
 # boolean type, the global switch for ToC in posts.
 toc: true
