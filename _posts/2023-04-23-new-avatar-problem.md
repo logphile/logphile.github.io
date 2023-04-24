@@ -1,6 +1,6 @@
 ---
 title: Avatar Problems
-date: 2023-12-23 12:01:00 -500
+date: 2023-04-23 12:01:00 -500
 categories: [Jekyll, Blog]
 tags: [blog,github,troubleshooting,jekyll,employers]     #TAG names should always be lowercase
 ---
