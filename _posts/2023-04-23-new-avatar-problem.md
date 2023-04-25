@@ -34,15 +34,15 @@ The error seemed to show the build wanting a particular platform specified, __x8
 
 The error gave a CLI command to add the missing platform to the file. I manually added __x86_64-linux__ on a new line in the *Gemfile.lock*, assuming this is what the CLI command was doing. Once the new platform had been added to the lockfile I made the commit and watched the action run.
 
-<img src="https://i.imgur.com/EyZpj43.png" alt="Run Initiated" width="100" />
+<img src="https://i.imgur.com/EyZpj43.png" alt="Run Initiated" width="100%" />
 
 So far so good.
 
-<img src="https://i.imgur.com/blrE7U4.png" alt="Run Looks Good So Far" width="100" />
+<img src="https://i.imgur.com/blrE7U4.png" alt="Run Looks Good So Far" width="100%" />
 
 But... the action failed again.
 
-<img src="https://i.imgur.com/AgkO1GA.png" alt="Failed Again" width="100" />
+<img src="https://i.imgur.com/AgkO1GA.png" alt="Failed Again" width="100%" />
 
 Now what?
 
@@ -54,7 +54,7 @@ __Liquid Exception: undefined method 'tainted?'__. Huh? No idea. A quick Google 
 
 Someone recommended a fix, code to add to *Gemfile*. The code looks like it is forcing Liquid version 4.0.4 or greater. I opened up *Gemfile* and added the code to the bottom of as suggested.
 
-<img src="https://i.imgur.com/EG2YYuE.png" alt="Forcing Liquid Version>
+<img src="https://i.imgur.com/EG2YYuE.png" alt="Forcing Liquid Version" width="100%">
 
 Save. Comment. Commit. Watch.
 
@@ -66,7 +66,7 @@ The Action ran successfully!
 
 Phew, that was a lot of work to just change an avatar image. Time to check out the page and verify the new image is there.
 
-<img src="https://i.imgur.com/HFufEf4.png" alt="Blank Avatar" width="100%" />
+<img src="https://i.imgur.com/HFufEf4.png" alt="Blank Avatar" width="50%" />
 
 Still blank. Forced a page refresh, tried a different browser, etc. Still blank. Maybe it was the new CDN I switched to for the new image? Out of curiosity, I decided to try a direct link to the Jekyll logo.
 
@@ -78,13 +78,13 @@ I then added the link to the *_config.yml* file.
 
 Save. Comment. Commit. Watch.
 
-<img src="https://i.imgur.com/BqKBmvV.png" alt="New Avatar Test Worked" width="100%" />
+<img src="https://i.imgur.com/BqKBmvV.png" alt="New Avatar Test Worked" width="50%" />
 
 Okay so the direct link worked. I decided to upload my avatar to [Imgur](www.imgur.com) this time.
 
 Save. Comment. Commit. Watch.
 
-<img src="https://i.imgur.com/Qv6Jxob.png" alt="New Avatar Working" width="100%" />
+<img src="https://i.imgur.com/Qv6Jxob.png" alt="New Avatar Working" width="50%" />
 
 Finally. Success.
 
