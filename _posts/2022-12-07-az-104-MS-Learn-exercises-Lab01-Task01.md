@@ -14,7 +14,6 @@ tags: [azure,autodidact,hands-on,azure cli,employers]     #TAG names should alwa
 
 <br>
 
->Student + dying = Studying.<br>- Anonymous
 
 <br>
 
