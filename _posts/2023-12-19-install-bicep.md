@@ -11,7 +11,7 @@ tags: [azure,bicep,how to,cli,cloud]     #TAG names should always be lowercase
 
 <br>
 
-In this post we will setup a Bicep developer environment.
+## Setup a Bicep Developer Environment
 
 Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Specific Language that maps 1-to-1 with (ARM) Azure Resource Manager templates. Over the years, ARM templates have become increasingly complex and burdensome. Bicep is Microsoft's answer to this problem. 
 
@@ -22,11 +22,15 @@ Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Spec
 - [ ] Install Bicep extension for Visual Studio Code
 - [ ] Install Azure CLI
 
-1. Install Barrier from CLI
+1. Install the Bicep Extension for VSCode
 
-`sudo apt install barrier`
+Open VSCode and open Extensions. Search for *bicep*.
 
-<img src="https://imgur.com/jsryfmL" alt="Install Barrier from CLI" width="100%" />
+<figure>
+    <img src="https://imgur.com/DKWzsXX" alt="VSCode bicep extension search results" width="100%" />
+    <figcaption>Extension search results for 'bicep'</figcaption> 
+</figure>
+
 
 <img src="https://imgur.com/qsL6BCr" alt="Install Barrier from CLI" width="100%" />
 
@@ -70,4 +74,8 @@ The log is still throwing up errors. The solution is covered in the next post.
 
 (to be cont.)
 
-### <a id="resources"></a>Resources ###
+### <a id="resources"></a>Resources used in this post ###
+
+1. [Microsoft - Bicep Overview](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+2. [Cloud with Chris - Introduction to Project Bicep](https://www.cloudwithchris.com/blog/introduction-to-bicep/)
+3. [Getting Started with Azure Bicep](https://www.youtube.com/watch?v=77AfsFzTsI4&t)
