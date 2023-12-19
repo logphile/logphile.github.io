@@ -15,7 +15,7 @@ In this post we will setup a Bicep developer environment.
 
 Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Specific Language that maps 1-to-1 with (ARM) Azure Resource Manager templates. Over the years, ARM templates have become increasingly complex and burdensome. Bicep is Microsoft's answer to this problem. 
 
-[Link](https://github.com/debauchee/barrier)
+[Resources Used](#resources)
 
 ## Tasks
 
@@ -69,3 +69,5 @@ Checking the settings of the client (Linux), we can see *Enable SSL* is checked.
 The log is still throwing up errors. The solution is covered in the next post.
 
 (to be cont.)
+
+### <a id="resources"></a>Resources ###
