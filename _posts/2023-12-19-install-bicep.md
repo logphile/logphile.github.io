@@ -22,11 +22,16 @@ Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Spec
 - [ ] Install Bicep extension for Visual Studio Code
 - [ ] Install Azure CLI
 
+## Difficulty Level 
+- 
+
 1. Install the Bicep Extension for VSCode
 
 Open VSCode and open Extensions. Search for *bicep*.
 
-<img src="https://imgur.com/DKWzsXX" alt="VSCode bicep extension search results" width="100%" />
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/IgvG1jz"  ><a href="//imgur.com/a/IgvG1jz">VSCode Extensions search result</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+# <img src="https://imgur.com/DKWzsXX" alt="VSCode bicep extension search results" width="100%" />
 
 
 
