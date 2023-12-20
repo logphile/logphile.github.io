@@ -26,10 +26,9 @@ Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Spec
 
 Open VSCode and open Extensions. Search for *bicep*.
 
-<figure>
-    <img src="https://imgcdn.dev/i/VEY6O" alt="VSCode bicep extension search results" width="100%" />
-    <figcaption>Extension search results for 'bicep'</figcaption> 
-</figure>
+<img src="https://imgcdn.dev/i/VEY6O" alt="VSCode bicep extension search results" width="100%" />
+
+
 
 
 <img src="https://imgur.com/qsL6BCr" alt="Install Barrier from CLI" width="100%" />
