@@ -21,6 +21,7 @@ Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Spec
 
 - [ ] Install Bicep extension for Visual Studio Code
 - [ ] Install Azure CLI
+- [ ] Verify bicep developer environment requirements met
 
 ## Difficulty Level 
 - 
@@ -31,55 +32,74 @@ Open VSCode and open Extensions. Search for *bicep*.
 
 # <img src="https://imgur.com/LmTfVCT" alt="VSCode bicep extension search results" width="100%" />
 
+Next, click Install.
 
+# <img src="https://imgur.com/TvlaCXl" alt="VSCode bicep extension install" width="100%" />
 
+Done.
 
+## Tasks
 
+- [x] Install Bicep extension for Visual Studio Code
+- [ ] Install Azure CLI
+- [ ] Verify bicep developer environment requirements met
 
-<img src="https://imgur.com/qsL6BCr" alt="Install Barrier from CLI" width="100%" />
+2. Next, we need to install the Azure CLI.*
 
-2. Open Barrier
+<info>In the past, the Bicep CLI was separate from the Azure CLI. Microsoft has made things easier. Per the documentation, "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it."</info>
 
-<img src="https://imgur.com/0t2b6bX" alt="Open Barrier" width="100%" />
+Open the link to the MSI for the latest version of the Azure CLI:
 
-3. Next on Welcome screen
+https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 
-<img src="https://imgur.com/Dn4phrX" alt="Next on Welcome" width="100%" />
+Choose the release for your system, most likely the 64-bit option.
 
-4. Choose Server or Client
+# <img src="https://imgur.com/H1Mbrwf" alt="Azure CLI MSI Installer" width="100%" />
 
-In this instance I chose Client, the other machine is acting as the Barrier Server.
+Once the installer is downloaded, open and click through (Next, Accept EULA, Install, Finish) the installation.
 
-<img src="https://imgur.com/PeqLJV1" alt="Choose Server or Client" width="100%" />
+Done.
 
-5. Client Settings
+## Tasks
 
-By default, *Auto config* will be checked. I've found that the *Auto Config* option has been hit or miss. So, I uncheck this. I have never used SSL with Barrier, seems overkill for my needs. I think it's good practice to operate software with minimal "bells and whistles," if you can get away with it. Extra features are also additional points of failure.
+- [x] Install Bicep extension for Visual Studio Code
+- [x] Install Azure CLI
+- [ ] Verify bicep developer environment requirements met
 
-After unchecking *Auto config* I entered the IP address of the machine designated as the Barrier server.
+3. Lastly, verify everything needed to author Bicep files from VSCode.
 
-Click __Start__
+Verify the Azure CLI was installed correctly. Open Powershell and run the *az --version* command.
 
-<img src="https://imgur.com/JRcvbbO" alt="Choose Server or Client" width="100%" />
+# <img src="https://imgur.com/JXV5Rrk" alt="Check Azure CLI version" width="100%" />
 
-## SSL Error
+Now, if we try and verify our Bicep version, we get something like this...
 
-The Barrier client (Linux) did not connect to the Barrier server (Windows). The logs show some static around an ssl certificate. The Barrier Server (Windows) does not require an SSL certificate from clients, it never has. The error is originating from the client (Linux).
+# <img src="https://imgur.com/3DPFB2u" alt="Check Bicep CLI version error" width="100%" />
 
-Checking the settings of the client (Linux), we can see *Enable SSL* is checked. I forgot this is checked by default. Whoops.
+Remember, the "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it." We haven't run any commands that would automatically install the Bicep CLI. The prompt says to run *az bicep install*. Okay.
 
-<img src="https://imgur.com/3kGjbrh" alt="Choose Server or Client" width="100%" />
+# <img src="https://imgur.com/COYxyJ6" alt="Check Bicep CLI version error" width="100%" />
 
-*Enable SSL* turned off
+# <img src="https://imgur.com/jk83EmD" alt="Check Bicep CLI version error" width="100%" />
 
-<img src="https://imgur.com/ppJYQWD" alt="Choose Server or Client" width="100%" />
+And running *az bicep version* is successful this time.
 
-The log is still throwing up errors. The solution is covered in the next post.
+# <img src="https://imgur.com/L1JFlh9" alt="Check Bicep CLI version error" width="100%" />
 
-(to be cont.)
+<tip>To make sure you have the latest Bicep version you can use the *az bicep upgrade* command.</tip>
+
+## Tasks
+
+- [x] Install Bicep extension for Visual Studio Code
+- [x] Install Azure CLI
+- [X] Verify bicep developer environment requirements met
+
+And that's it, we have successfully verified all the requirements are met.
+
 
 ### <a id="resources"></a>Resources used in this post ###
 
 1. [Microsoft - Bicep Overview](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
 2. [Cloud with Chris - Introduction to Project Bicep](https://www.cloudwithchris.com/blog/introduction-to-bicep/)
 3. [Getting Started with Azure Bicep](https://www.youtube.com/watch?v=77AfsFzTsI4&t)
+4. [Microsoft - Install Azure CLI on Windows](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
