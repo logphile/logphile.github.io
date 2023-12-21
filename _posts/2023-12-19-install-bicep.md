@@ -3,6 +3,9 @@ title: Install Azure Bicep
 date: 2023-12-15 12:01:00 -500
 categories: [Azure, Bicep]
 tags: [azure,bicep,how to,cli,cloud]     #TAG names should always be lowercase
+image:
+    path: https://i.imgur.com/deqXp8r.png
+    alt: Post alt text test
 ---
 
 <br>
