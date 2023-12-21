@@ -28,7 +28,7 @@ Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Spec
 
 ## Install the Bicep Extension for VSCode
 
-Open VSCode and open Extensions. Search for *bicep*.
+Open VSCode and open Extensions. Search for `bicep`.
 
 <img src="https://i.imgur.com/LmTfVCT.png" alt="VSCode bicep extension search results" width="100%" />
 _VSCode Bicep Extension search results_
@@ -40,12 +40,6 @@ _VSCode Bicep Extension install button_
 
 Done.
 
-## Tasks
-
-- [x] Install Bicep extension for Visual Studio Code
-- [ ] Install Azure CLI
-- [ ] Verify bicep developer environment requirements met
-
 ## Install Azure CLI*
 
 >In the past, the Bicep CLI was separate from the Azure CLI. Microsoft has made things easier. Per the documentation, "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it."
@@ -53,7 +47,7 @@ Done.
 
 Open the link to the MSI for the latest version of the Azure CLI:
 
-(https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+[Azure CLI MSI Installer](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 
 Choose the release for your system, most likely the 64-bit option.
 
@@ -66,7 +60,7 @@ Done.
 
 ## Lastly, verify everything needed to author Bicep files from VSCode.
 
-Verify the Azure CLI was installed correctly. Open Powershell and run the *az --version* command.
+Verify the Azure CLI was installed correctly. Open Powershell and run the `az --version` command.
 
 <img src="https://i.imgur.com/JXV5Rrk.png" alt="Check Azure CLI version" width="100%" />
 _Checking the Azure CLI version_
@@ -76,7 +70,7 @@ Now, if we try and verify our Bicep version, we get something like this...
 <img src="https://i.imgur.com/3DPFB2u.png" alt="Check Bicep CLI version error" width="100%" />
 _Azure Bicep CLI version error_
 
-Remember, the "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it." We haven't run any commands that would automatically install the Bicep CLI. The prompt says to run *az bicep install*. Okay.
+Remember, the "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it." We haven't run any commands that would automatically install the Bicep CLI. The prompt says to run `az bicep install`. Okay.
 
 <img src="https://i.imgur.com/COYxyJ6.png" alt="Azure Bicep CLI install" width="100%" />
 _Running Azure Bicep CLI install_
@@ -84,12 +78,13 @@ _Running Azure Bicep CLI install_
 <img src="https://i.imgur.com/jk83EmD.png" alt="Azure Bicep CLI install finished" width="100%" />
 _Azure Bicep CLI install finished_
 
-And running *az bicep version* is successful this time.
+And running `az bicep version` is successful this time.
 
 <img src="https://i.imgur.com/L1JFlh9.png" alt="Check Bicep CLI version again" width="100%" />
 _Checking Azure Bicep version again_
 
-<tip>To make sure you have the latest Bicep version you can use the *az bicep upgrade* command.</tip>
+>To make sure you have the latest Bicep version you can use the `az bicep upgrade` command.
+{: .prompt-tip}
 
 ## Tasks
 
