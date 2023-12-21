@@ -26,9 +26,6 @@ Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Spec
 - [ ] Install Azure CLI
 - [ ] Verify bicep developer environment requirements met
 
-## Difficulty Level 
-- [X] [ ] [ ] [ ] [ ]
-
 ## Install the Bicep Extension for VSCode
 
 Open VSCode and open Extensions. Search for `bicep`.
