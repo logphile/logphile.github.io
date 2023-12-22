@@ -1,5 +1,5 @@
 ---
-title: Install Azure Bicep
+title: How To: Setup an Azure Bicep Dev Environment
 date: 2023-12-15 12:01:00 -500
 categories: [Azure, Bicep]
 tags: [azure,bicep,how to,cli,cloud]     #TAG names should always be lowercase
@@ -11,7 +11,7 @@ tags: [azure,bicep,how to,cli,cloud]     #TAG names should always be lowercase
 
 <br>
 
-## Setup a Bicep Developer Environment
+## Setting Up an Azure Bicep Developer Environment
 
 Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Specific Language that maps 1-to-1 with (ARM) Azure Resource Manager templates. Over the years, ARM templates have become increasingly complex and burdensome. Bicep is Microsoft's answer to this problem. 
 
@@ -37,7 +37,7 @@ _VSCode Bicep Extension install button_
 
 Done.
 
-## Install Azure CLI*
+## Install the Azure CLI*
 
 >In the past, the Bicep CLI was separate from the Azure CLI. Microsoft has made things easier. Per the documentation, "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it."
 {: .prompt-info}
@@ -55,7 +55,7 @@ Once the installer is downloaded, open and click through (Next, Accept EULA, Ins
 
 Done.
 
-## Lastly, verify everything needed to author Bicep files from VSCode.
+## Verify Everything Works
 
 Verify the Azure CLI was installed correctly. Open Powershell and run the `az --version` command.
 
