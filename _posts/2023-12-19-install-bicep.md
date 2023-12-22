@@ -21,7 +21,7 @@ Azure Bicep was announced at Ignite 2020. Bicep is Microsoft's (DSL) Domain-Spec
 
 - [ ] Install Bicep extension for Visual Studio Code
 - [ ] Install Azure CLI
-- [ ] Verify bicep developer environment requirements met
+- [ ] Verify Bicep developer environment requirements met
 
 ## Install the Bicep Extension for VSCode
 
@@ -67,7 +67,7 @@ Now, if we try and verify our Bicep version, we get something like this...
 <img src="https://i.imgur.com/3DPFB2u.png" alt="Check Bicep CLI version error" width="100%" />
 _Azure Bicep CLI version error_
 
-Remember, the "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it." We haven't run any commands that would automatically install the Bicep CLI. The prompt says to run `az bicep install`. Okay.
+Remember, the "Azure CLI automatically installs the Bicep CLI when a command is executed that needs it." We haven't run any commands that would trigger the  install of the Bicep CLI. The prompt says to run `az bicep install`. Okay.
 
 <img src="https://i.imgur.com/COYxyJ6.png" alt="Azure Bicep CLI install" width="100%" />
 _Running Azure Bicep CLI install_
@@ -89,7 +89,7 @@ _Checking Azure Bicep version again_
 - [x] Install Azure CLI
 - [X] Verify bicep developer environment requirements met
 
-And that's it, all Bicep development environment requirements have been met!
+And that's it, all of the Bicep development environment requirements have been met!
 
 
 ### <a id="resources"></a>Resources used in this post ###
