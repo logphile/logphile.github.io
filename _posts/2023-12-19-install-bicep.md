@@ -3,6 +3,9 @@ title: Setup an Azure Bicep Dev Environment
 date: 2023-12-15 12:01:00 -500
 categories: [Azure, Bicep]
 tags: [azure,bicep,how to,cli,cloud,employers]     #TAG names should always be lowercase
+image:
+  path: https://i.imgur.com/WqcVNcC.png
+  alt: some alt text
 ---
 
 <br>
